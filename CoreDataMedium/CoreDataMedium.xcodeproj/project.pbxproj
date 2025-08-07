@@ -35,16 +35,6 @@
 			path = CoreDataMedium;
 			sourceTree = "<group>";
 		};
-		916B2D2D2E43C8FE00073197 /* CoreDataMediumTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoreDataMediumTests;
-			sourceTree = "<group>";
-		};
-		916B2D372E43C8FE00073197 /* CoreDataMediumUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoreDataMediumUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				916B2D1F2E43C8FD00073197 /* CoreDataMedium */,
-				916B2D2D2E43C8FE00073197 /* CoreDataMediumTests */,
-				916B2D372E43C8FE00073197 /* CoreDataMediumUITests */,
 				916B2D1E2E43C8FD00073197 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				916B2D2C2E43C8FE00073197 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				916B2D2D2E43C8FE00073197 /* CoreDataMediumTests */,
-			);
 			name = CoreDataMediumTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				916B2D362E43C8FE00073197 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				916B2D372E43C8FE00073197 /* CoreDataMediumUITests */,
 			);
 			name = CoreDataMediumUITests;
 			packageProductDependencies = (
